@@ -3,17 +3,45 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+    color-scheme: light dark;
+    color: rgba(165, 7, 7, 0.87);
+    background-color: #ffffff;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+.color-container {
+    margin: 2rem;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+
+}
+h3 {
+    font-weight: 600;
+}
+
+
+
+.frame{
+ border:1px solid black;
+ margin-bottom: 1rem;
+ width: 400px;
+padding: 1rem;
+}
+
+
+.frame1{
+background-color: rgb(255, 232, 196);
+ }
+
+ .frame2{
+  background-color: rgb(236, 235, 255);
+   }
