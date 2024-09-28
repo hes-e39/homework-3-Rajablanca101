@@ -1,5 +1,12 @@
-const App = () => {
-    return <h1>Hello World</h1>;
+import type React from 'react';
+import MyColors from './MyColors';
+
+const App: React.FC = () => {
+    return (
+        <>
+            <MyColors />
+        </>
+    );
 };
 
 export default App;
